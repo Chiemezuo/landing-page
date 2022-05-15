@@ -60,10 +60,11 @@ button {
   width: 100px;
   height: 48px;
   background-color: #3882f6;
-  border-radius: 10px;
+  border: 2px solid #f9faf8;
   margin-top: auto;
   color: #f9faf8;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 .nav-link {
@@ -110,4 +111,28 @@ button {
 #quote-author {
   display: flex;
   justify-content: flex-end;
+}
+
+.fourth-part {
+  height: 200px;
+  margin: 15vh 15vw;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.slightly-large-text {
+  font-size: 36px;
+  color: #f9faf8;
+}
+
+.shaded-text {
+  color: #e5e7eb;
 }
