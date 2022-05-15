@@ -136,3 +136,12 @@ button {
 .shaded-text {
   color: #e5e7eb;
 }
+
+footer p {
+  color: #f9faf8;
+  text-align: center;
+  background-color: #1f2937;
+  padding: 30px 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
